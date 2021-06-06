@@ -1,0 +1,16 @@
+.game-requirement-tabs {
+  background: rgba(63, 81, 181, 063);
+  color: #fff;
+  text-align: left;
+  padding: 10px;
+}
+
+.game-tabs-par {
+  padding: 20px 20px 0 20px;
+  margin-bottom: 0;
+}
+
+.game-requirement-tab-content-title {
+  text-decoration: underline;
+}
+

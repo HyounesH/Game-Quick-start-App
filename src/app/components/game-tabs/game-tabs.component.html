@@ -56,5 +56,8 @@
         Your video does not support the video tag.
       </video>
     </mat-tab>
+    <mat-tab label="Requirements" *ngIf="game.platforms?.length" >
+      <app-game-requirement-tabs [requirements] = "game.platforms"></app-game-requirement-tabs>
+    </mat-tab>
   </mat-tab-group>
 </div>

@@ -8,6 +8,7 @@ It's allows you to search for games by name and check all infos related to each 
 
 ![home page](./src/assets/images/screenshots/quick-start-game.PNG)
 ![details page](./src/assets/images/screenshots/quick-start-game-2.PNG)
+![requirement section](./src/assets/images/screenshots/quick-start-game-3.PNG)
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.

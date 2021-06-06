@@ -1,0 +1,17 @@
+<div class="game-requirement-tabs">
+  <mat-tab-group mat-align-tabs="start" backgroundColor="accent" *ngIf="requirements?.length">
+    <ng-container *ngFor="let requirement of requirements">
+      <mat-tab *ngIf="requirement.requirements?.minimum" label="{{requirement.platform.name}}">
+        <div *ngIf="requirement.requirements">
+          <p *ngIf="requirement.requirements.minimum" class="game-tabs-par">
+            <strong class="game-requirement-tab-content-title ">Minimum </strong>: {{requirement.requirements.minimum}}
+          </p>
+          <p *ngIf="requirement.requirements.recommended" class="game-tabs-par">
+            <strong
+              class="game-requirement-tab-content-title ">Recommended </strong>: {{requirement.requirements.recommended}}
+          </p>
+        </div>
+      </mat-tab>
+    </ng-container>
+  </mat-tab-group>
+</div>

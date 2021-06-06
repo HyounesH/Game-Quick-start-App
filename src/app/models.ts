@@ -9,6 +9,7 @@ export interface Game {
   metacritic: number;
   genres: Array<Genre>;
   parent_platforms: Array<ParentPlatform>;
+  platforms: Array<GamePlatform>;
   publishers: Array<Publisher>;
   ratings: Array<Rating>;
   screenshots: Array<Screenshot>;
@@ -50,4 +51,12 @@ interface Trailer {
   };
 }
 
-
+export interface GamePlatform {
+  platform: {
+    name
+  };
+  requirements: {
+    minimum: string,
+    recommended: string
+  };
+}
